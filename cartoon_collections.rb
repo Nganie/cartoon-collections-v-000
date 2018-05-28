@@ -13,8 +13,5 @@ end
 def find_the_cheese(queso)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if queso.index {|x| x == "cheese_types"} puts "true"
-  else
-    puts "false"
-  end
+  queso.include?("cheese_types")
 end
