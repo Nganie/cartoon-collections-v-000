@@ -15,3 +15,6 @@ def find_the_cheese(queso)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   queso.index {|x| x.include?("cheese_types")}
 end
+puts "#{x}"
+end
+end
