@@ -13,5 +13,8 @@ end
 def find_the_cheese(queso)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  queso.index {|x| x == "cheese_types"} || {|x| x == nil}
+  if queso.index {|x| x == "cheese_types"} puts "true"
+  else
+    puts "false"
+  end
 end
