@@ -7,8 +7,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
 end
 
 def long_planeteer_calls(words)
-  return true if words.length > 4
-else false
+words.any? [{|obj| block}]
 end
 end
 
