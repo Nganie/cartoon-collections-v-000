@@ -1,9 +1,9 @@
 def roll_call_dwarves(dwarves)# code an argument here
   call = []
-  counter = 7
+  counter = 1
   dwarves.each do |name|
     call.push("#{counter}. #{name}")
-    counter += 7
+    counter += 1
 end
 roll_call_dwarves
 end
